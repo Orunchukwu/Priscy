@@ -1,0 +1,54 @@
+img{
+    border-radius: 16px;
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    line-height: 1.8;
+    padding-left: 2cqmax;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+}   
+
+h3{
+    color:  hsl(332, 51%, 32%)  
+}
+
+.seperatebackground{
+    background-color:  hsl(330, 100%, 98%) ;
+    border-radius: 16px;
+    line-height: 27px;
+}
+
+.ul3 li::marker{
+    color:  hsl(332, 51%, 32%)  ;
+}
+
+.ul2 li::marker{
+    color:  hsl(14, 45%, 36%);
+}
+
+.ol1 li::marker{
+    color:  hsl(14, 45%, 36%);
+    font-weight: bolder  ;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+ }
+ tr{
+    border-bottom: 1px solid rgb(212, 194, 194);
+    line-height: 40px;
+ }
+
+ .major{
+    line-height: 30px;
+ }
